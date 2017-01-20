@@ -12,7 +12,7 @@ github: 'piax93'
 twitter: 'piax93'
 facebook: 'piax93'
 
-background: '/resources/images/stockholm.png'
+background: '/resources/images/background.png'
 profile_avatar: '/resources/images/profile.png'
 
 paginate: 5
