@@ -1,1 +1,10 @@
-theme: jekyll-theme-minimal
+name: Matteo Piano
+description: Computer scientist (almost).
+
+safe: true
+lsi: false
+
+url: 'https://piax93.github.io'
+author: 'Matteo Piano'
+githubnn: 'piax93'
+twitter: 'piax93'
