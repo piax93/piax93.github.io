@@ -1,12 +1,11 @@
-name: SIGSEGV
-description: Computer scientist (almost)
+name: 'SIGSEGV'
+description: 'Computer scientist (almost)'
 
 safe: true
 lsi: false
 
 url: 'https://piax93.github.io'
 author: 'Matteo Piano'
-email: 'piano.matteo@outlook.com'
 linkedin: 'pianomatteo'
 github: 'piax93'
 twitter: 'piax93'

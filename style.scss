@@ -330,6 +330,7 @@ tbody tr:nth-child(odd) th {
         width: 100%;
         text-align: center;
         color: #BDBDBD;
+        font-weight: 600;
     }
     .social {
         margin-left: 25vw;
@@ -339,7 +340,6 @@ tbody tr:nth-child(odd) th {
     .social a {
         color: #999999;
     }
-
     @media (min-width: 38em) {
         position: fixed;
         width: 20%;
@@ -359,7 +359,7 @@ tbody tr:nth-child(odd) th {
             margin-top: -1.3em;
             font-size: 16px;
             text-align: center;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
         }
         .img-circle {
             height: auto;

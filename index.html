@@ -3,17 +3,19 @@ layout: default
 ---
 <header class="bloghead">
     <h1 class="bloghead-title">
-    <a href="{{ site.url }}/">{{ site.name }}</a>
-  </h1>
+      <a href="{{ site.url }}/">{{ site.name }}</a>
+    </h1>
     <nav class="bloghead-nav">
         {% for nav in site.nav %}
-        <a href="{{ nav.href }}">{{ nav.name }}<span> &nbsp;/&nbsp; </span></a> {% endfor %}
+          <a href="{{ nav.href }}">{{ nav.name }}<span> &nbsp;/&nbsp; </span></a>
+        {% endfor %}
     </nav>
 </header>
 <div class="content">
-    {% if site.posts.size == 0 %}
-    <h2>No post found</h2>
-    {% else %}
+    <p id="about">
+      Hi, I'm Matteo Piano and I'm testing Jekyll { site.time }
+    </p>
+    {% if site.posts.size != 0 %}
       {% for post in paginator.posts %}
       <div class="post-list">
           <h2 class="post-title">
