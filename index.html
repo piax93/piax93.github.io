@@ -11,10 +11,17 @@ layout: default
 </header>
 <div class="content">
     <p id="aboutme" style="text-align: justify;">
-      Hi, I'm Matteo Piano and I'm 23 years old (or maybe more, Github pages are static 😒).
+      Hi, my name is Matteo Piano and I'm <span id="age">23</span> years old.
       I'm a master student in computer science and currently I'm involved in a double degree project between
         Politecnico di Torino and KTH university in Stockholm.
     </p>
+  <script>
+    var today = new Date();
+    if(today.getFullYear() > 2016){ // Just to check that your system clock is not in the past
+      var age = today.getFullYear() - 1993 - (today.getMonth() < 10 || (today.getMonth() == 10 && today.getDate() < 23) ? 1 : 0);
+      document.getElementById('age').innerHTML = age;
+    }
+  </script>
     {% if site.posts.size != 0 %}
       {% for post in paginator.posts %}
       <div class="post-list">
