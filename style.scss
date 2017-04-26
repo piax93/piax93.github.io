@@ -50,7 +50,7 @@ a {
     transition: all 0.3s;
     &:hover,
     &:focus {
-        color: #EC407A;
+        color: #33B9DD;
         text-decoration: dotted;
     }
 }
@@ -323,7 +323,16 @@ tbody tr:nth-child(odd) th {
         margin-top: 10vw;
         width: 50%;
         float: right;
-        color: #FFF;
+        a {
+            color: #FFF;
+            text-decoration: none;
+            transition: all 0.3s;
+            &:hover,
+            &:focus {
+                color: #989898;
+                text-decoration: dotted;
+            }
+        }
     }
     p {
         height: auto;
@@ -399,8 +408,10 @@ tbody tr:nth-child(odd) th {
         span {
             color: #BDBDBD;
         }
+        margin-bottom: 0px;
     }
     .bloghead-nav {
+        margin-bottom: 20px;
         a {
             color: #000;
             font-weight: 800;
@@ -410,10 +421,8 @@ tbody tr:nth-child(odd) th {
         }
         span {
             font-weight: 800;
-            color: #EC407A;
             &:hover,
             &:focus {
-                color: #EC407A;
                 text-decoration: none;
             }
         }

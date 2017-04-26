@@ -6,7 +6,7 @@
     <div class="top"></div>
     <div class="profile" style="background-image: url({{ site.background }});">
         <img src="{{ site.profile_avatar }}" class="img-circle" />
-        <h3>{{ site.author }}</h3>
+        <h3><a href="{{ site.url }}/">{{ site.author }}</a></h3>
         <p>{{ site.description }}</p>
         <ul class="social">
             {% if site.github %}

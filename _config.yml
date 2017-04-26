@@ -15,8 +15,6 @@ background: '/resources/images/background.png'
 profile_avatar: '/resources/images/profile.png'
 favicon: '/resources/images/favicon.ico'
 
-paginate: 5
-paginate_path: '/page:num/'
 markdown: kramdown
 
 sass:
@@ -36,5 +34,8 @@ defaults:
     values:
       layout: 'post'
 
-gems:
-- jekyll-paginate
+nav:
+  -
+    name: 'DGI17 BLOG'
+    href: '/dgi17'
+
