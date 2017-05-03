@@ -81,6 +81,7 @@ h6 {
 
 p {
     margin: 0 0 1rem;
+    text-align: justify;
 }
 
 ul,
@@ -401,6 +402,19 @@ tbody tr:nth-child(odd) th {
         min-width: 80%;
         height: 800px;
     }
+}
+
+.post p {
+    a {
+        color: #0d47a1;
+    }
+    a:hover {
+        color: #2196f3;
+    }
+}
+
+.excerpt p::after {
+    content: " ...";
 }
 
 .bloghead {
