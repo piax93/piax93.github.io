@@ -2,25 +2,25 @@
 layout: default
 ---
 <header class="bloghead">
-    <h1 class="bloghead-title">{{ site.name }}</h1>
-    <nav class="bloghead-nav">
-        <span>Pages: </span>
-        {% for nav in site.nav %}
-          <a href="{{ nav.href }}">&nbsp;&nbsp;{{ nav.name }}</a>
-          {% unless forloop.last %}<span>, </span>{% endunless %}
-        {% endfor %}
-    </nav>
+  <h1 class="bloghead-title">{{ site.name }}</h1>
+  <nav class="bloghead-nav">
+    <span>Pages: </span>
+      {% for nav in site.nav %}
+        <a href="{{ nav.href }}">&nbsp;&nbsp;{{ nav.name }}</a>
+        {% unless forloop.last %}<span>, </span>{% endunless %}
+      {% endfor %}
+  </nav>
 </header>
 <div class="content">
-    <p id="aboutme" style="text-align: justify;">
-      Hi, my name is Matteo Piano and I'm <span id="age">23</span> years old.
-      I'm a master student in computer science and currently I'm involved in a double degree project between
-        Politecnico di Torino and KTH university in Stockholm.
-    </p>
+  <p id="aboutme" style="text-align: justify;">
+    Hi, my name is Matteo Piano and I'm <span id="age">23</span> years old (if my age looks weird to you, you should probably fix the clock on your system &#x1F601).
+    I'm a master student in computer science and currently I'm involved in a double degree project between Politecnico di Torino and KTH university in Stockholm.
+  </p>
   <script>
     var today = new Date();
-    if(today.getFullYear() > 2016){ // Just to check that your system clock is not in the past
-      var age = today.getFullYear() - 1993 - (today.getMonth() < 10 || (today.getMonth() == 10 && today.getDate() < 23) ? 1 : 0);
+    if(today.getFullYear() > 2016) { // Just to check that your system clock is not in the past
+      var age = today.getFullYear() - 1993 
+                - (today.getMonth() < 10 || (today.getMonth() == 10 && today.getDate() < 23) ? 1 : 0);
       document.getElementById('age').innerHTML = age;
     }
   </script>
