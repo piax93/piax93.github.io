@@ -19,7 +19,7 @@ layout: default
   <script>
     var today = new Date();
     if(today.getFullYear() > 2016) { // Just to check that your system clock is not in the past
-      var age = today.getFullYear() - 1993 
+      var age = today.getFullYear() - 1993
                 - (today.getMonth() < 10 || (today.getMonth() == 10 && today.getDate() < 23) ? 1 : 0);
       document.getElementById('age').innerHTML = age;
     }

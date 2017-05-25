@@ -26,8 +26,8 @@ Moving to the cube mesh, the strategy employed could be considered as a custom a
 ```c++
 void Cube::collide(Particle& p) const {
     glm::vec3 ray = p.v.position - center;
-    if (glm::abs(ray.x) < halfsideColl 
-     && glm::abs(ray.y) < halfsideColl 
+    if (glm::abs(ray.x) < halfsideColl
+     && glm::abs(ray.y) < halfsideColl
      && glm::abs(ray.z) < halfsideColl) {
         ray = glm::normalize(ray) * halfsideColl * 2.0f;
         if (glm::abs(ray.x) > halfsideColl && ray.x != 0.f)
