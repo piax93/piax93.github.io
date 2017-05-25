@@ -26,7 +26,9 @@ Moving to the cube mesh, the strategy employed could be considered as a custom a
 ```c++
 void Cube::collide(Particle& p) const {
     glm::vec3 ray = p.v.position - center;
-    if (glm::abs(ray.x) < halfsideColl && glm::abs(ray.y) < halfsideColl && glm::abs(ray.z) < halfsideColl) {
+    if (glm::abs(ray.x) < halfsideColl 
+     && glm::abs(ray.y) < halfsideColl 
+     && glm::abs(ray.z) < halfsideColl) {
         ray = glm::normalize(ray) * halfsideColl * 2.0f;
         if (glm::abs(ray.x) > halfsideColl && ray.x != 0.f)
             ray *= halfsideColl / glm::abs(ray.x);
@@ -38,6 +40,8 @@ void Cube::collide(Particle& p) const {
     }
 }
 ```
+
+(I hope you will forgive me, but I could not resist texturing the mesh as a _Companion Cube_)
 
 <video width="640" height="360" controls>
   <source src="{{site.videos}}/cube_collision.mp4" type="video/mp4">

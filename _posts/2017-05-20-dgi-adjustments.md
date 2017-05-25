@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Final adjustments"
-date:   2017-05-17
+date:   2017-05-20
 categories: dgi
 ---
 
