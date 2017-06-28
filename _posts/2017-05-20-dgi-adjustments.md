@@ -45,4 +45,5 @@ The result can be seen in the short video below in which the cloth assumes shade
   <source src="{{site.videos}}/cloth_normals.mp4" type="video/mp4">
 </video>
 
+
 The code of the whole project will be made public on [this repository](https://github.com/piax93/OpenGL_clothsim) as soon as the final grade for the course DH2323 is registered.
