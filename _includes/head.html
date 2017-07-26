@@ -1,12 +1,24 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.author }} - {% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="Personal page of {{ site.author }}">
-    <title>{{ site.author }} - {% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
     <link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.favicon }}">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
     <link rel="stylesheet" href="{{ site.url }}/resources/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ site.url }}/style.css">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.url }}/feed.xml" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html','' }}" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "{{ site.author }}",
+        "birthDate": "1993-11-23",
+        "jobTitle": "Software Engineer",
+        "email": "piano.matteo@outlook.com",
+        "url": "{{ site.url }}"
+      }
+    </script>
 </head>
