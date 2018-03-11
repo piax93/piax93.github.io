@@ -12,13 +12,17 @@ layout: default
   </nav>
 </header>
 <div class="content">
-  <p id="aboutme" style="text-align: justify;">
-    Hi, my name is Matteo Piano and I'm <span id="age">23</span> years old (if my age looks weird to you, you should probably fix the clock on your system &#x1F601).
-    I'm a master student in computer science and currently I'm involved in a double degree project between Politecnico di Torino and KTH university in Stockholm.
+  <p id="aboutme">
+    Hi, my name is Matteo Piano, I was born in Asti (Italy) and I'm <span id="age">24</span> years old (if my age looks weird to you, you should probably fix the clock on your system &#x1F601).
+    <br>
+    In 2018 I obtained a double master degree in <i>Computer Science and Engineering</i> from <a href="https://www.kth.se">KTH university</a> in Stockholm and in <i>Software Engineering</i> from <a href="https://www.polito.it">Politecnico di Torino</a>.
+    The topic of <a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-220524">my degree project</a> was the development of a binary rewriter to instrument executable files against <i>Return Oriented Programming</i> attacks.
+    <br>
+    I am currently employed as a cyber-security consultant in <a href="https://www.reply.com">Spike Reply</a> working alongside the <i>FCA Group</i> ICT team located in Turin on projects regarding connected vehicles and industry 4.0.
   </p>
   <script>
     var today = new Date();
-    if(today.getFullYear() > 2016) { // Just to check that your system clock is not in the past
+    if(today.getFullYear() > 2017) { // Just to check that your system clock is not in the past
       var age = today.getFullYear() - 1993
                 - (today.getMonth() < 10 || (today.getMonth() == 10 && today.getDate() < 23) ? 1 : 0);
       document.getElementById('age').innerHTML = age;

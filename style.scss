@@ -458,6 +458,13 @@ tbody tr:nth-child(odd) th {
     }
 }
 
+p#aboutme {
+    text-align: justify;
+    a {
+        color: #0D47A1;
+    }
+}
+
 .highlight .hll {
     background-color: #ffffcc
 }
