@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/matp93
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://piax93.github.io
+  * I am matp93 (https://keybase.io/matp93) on keybase.
+  * I have a public key ASDO0raDJiTmfCB6ozP3o2K-mbqB8rrVD-Q5tQzAkX7dXgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ced2b6832624e67c207aa333f7a362be99ba81f2bad50fe439b50cc0917edd5e0a",
+      "host": "keybase.io",
+      "kid": "0120ced2b6832624e67c207aa333f7a362be99ba81f2bad50fe439b50cc0917edd5e0a",
+      "uid": "ee0beacc0f1d7f86cfaabbe33e8cd019",
+      "username": "matp93"
+    },
+    "merkle_root": {
+      "ctime": 1530912301,
+      "hash": "363d606b720bab11622ac67969ea5f3c742da25b5fcd9c1218a8e6170affe52576b95a19fc3a00bddaa107d2493bde3e58a55c0bc4b9188c9d75683ac890534a",
+      "hash_meta": "b079ac4d0e40b3e30e0feb740befbdf4b112e9561943e38eace7d78800fe62dd",
+      "seqno": 3211227
+    },
+    "service": {
+      "entropy": "TBDqiBJ93086XUabgDDr51DX",
+      "hostname": "piax93.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1530912337,
+  "expire_in": 504576000,
+  "prev": "9eba575c738979291a92f777a256762bd4ca23c2cd4276d92ff0b4d5202ac8e6",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgztK2gyYk5nwgeqMz96Nivpm6gfK61Q/kObUMwJF+3V4Kp3BheWxvYWTESpcCCcQgnrpXXHOJeSkakvd3olZ2K9TKI8LNQnbZL/C01SAqyObEINpFmZkDO/ur0RwQbzgZYZEzdJHSlFKfP9A+peIBl+kSAgHCo3NpZ8RArH0/y0WFu9l3QmczKKprv6Ens+U66lXYRfby5AK5yw2E1LVkKO0HogN46m9Ll25EEz24fgKRAA7O5LbxNEusAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICAFYrcRDFMIihGarrAPXdXysEOpLdfhhgFpVLzgZf7Io3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/matp93
+
+==================================================================
