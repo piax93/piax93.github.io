@@ -1,5 +1,5 @@
 name: 'SIGSEGV'
-description: 'Software & Cyber-Security Engineer'
+description: 'Software Security Engineer'
 
 safe: true
 lsi: false
@@ -8,7 +8,7 @@ url: 'https://piax93.github.io'
 author: 'Matteo Piano'
 linkedin: 'pianomatteo'
 github: 'piax93'
-twitter: 'piax93'
+twitter: 'matp93_'
 facebook: 'piax93'
 
 excerpt_separator: '.'
